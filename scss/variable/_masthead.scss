@@ -1,0 +1,43 @@
+main> header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+
+}
+
+.content {
+    // max-width: 50%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding-inline-end: 1rem;
+}
+.content h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 800px) {
+    main> header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem;
+    }
+    .content {
+        max-width: 50%;
+    }
+}
