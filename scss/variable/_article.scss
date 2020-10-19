@@ -1,7 +1,7 @@
 ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 ul> li {
@@ -48,6 +48,7 @@ ul> li {
     @media (min-width: 800px) {
         ul> li {
             flex-basis: 25%;
+            margin: 2rem;
         }
     
         ul>li:nth-of-type(2) {
